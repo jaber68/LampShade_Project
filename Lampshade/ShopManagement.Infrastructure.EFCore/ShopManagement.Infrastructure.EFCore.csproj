@@ -15,4 +15,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ShopMagement.Domain\ShopMagement.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
