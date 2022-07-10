@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ShopMagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framwork": "1.0.0",
+          "ShopManagement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "ShopMagement.Domain.dll": {}
+        }
+      },
+      "0_Framwork/1.0.0": {
+        "runtime": {
+          "0_Framwork.dll": {}
+        }
+      },
+      "ShopManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "0_Framwork": "1.0.0"
+        },
+        "runtime": {
+          "ShopManagement.Application.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShopMagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "0_Framwork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShopManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

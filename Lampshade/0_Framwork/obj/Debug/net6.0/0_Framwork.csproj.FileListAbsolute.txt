@@ -1,0 +1,12 @@
+E:\V.S_Projects\Code\Lampshade\0_Framwork\bin\Debug\net6.0\0_Framwork.deps.json
+E:\V.S_Projects\Code\Lampshade\0_Framwork\bin\Debug\net6.0\0_Framwork.dll
+E:\V.S_Projects\Code\Lampshade\0_Framwork\bin\Debug\net6.0\0_Framwork.pdb
+E:\V.S_Projects\Code\Lampshade\0_Framwork\obj\Debug\net6.0\0_Framwork.csproj.AssemblyReference.cache
+E:\V.S_Projects\Code\Lampshade\0_Framwork\obj\Debug\net6.0\0_Framwork.GeneratedMSBuildEditorConfig.editorconfig
+E:\V.S_Projects\Code\Lampshade\0_Framwork\obj\Debug\net6.0\0_Framwork.AssemblyInfoInputs.cache
+E:\V.S_Projects\Code\Lampshade\0_Framwork\obj\Debug\net6.0\0_Framwork.AssemblyInfo.cs
+E:\V.S_Projects\Code\Lampshade\0_Framwork\obj\Debug\net6.0\0_Framwork.csproj.CoreCompileInputs.cache
+E:\V.S_Projects\Code\Lampshade\0_Framwork\obj\Debug\net6.0\0_Framwork.dll
+E:\V.S_Projects\Code\Lampshade\0_Framwork\obj\Debug\net6.0\refint\0_Framwork.dll
+E:\V.S_Projects\Code\Lampshade\0_Framwork\obj\Debug\net6.0\0_Framwork.pdb
+E:\V.S_Projects\Code\Lampshade\0_Framwork\obj\Debug\net6.0\ref\0_Framwork.dll
