@@ -24,7 +24,7 @@ namespace ShopManagement.Application
                     ,command.PictureTitle, command.MetaDescription, 
                      command.Keywords, command.PictureAlt, slug);
 
-                _productCategoryRepository.Create(productCategory);
+            _productCategoryRepository.Create(productCategory);
                 _productCategoryRepository.SaveChanges();
                 return operation.Succedded();
         }

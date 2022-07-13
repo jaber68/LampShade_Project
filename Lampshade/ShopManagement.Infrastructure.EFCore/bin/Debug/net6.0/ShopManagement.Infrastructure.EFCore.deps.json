@@ -485,6 +485,9 @@
         }
       },
       "0_Framwork/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.6"
+        },
         "runtime": {
           "0_Framwork.dll": {}
         }

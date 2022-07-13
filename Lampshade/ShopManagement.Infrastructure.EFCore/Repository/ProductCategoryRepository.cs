@@ -1,37 +1,18 @@
-﻿using ShopMagement.Domain.ProductCategoryAgg;
+﻿using _0_Framwork.Infrastructure;
+using ShopMagement.Domain.ProductCategoryAgg;
 using ShopManagement.Application.Contracts.ProductCategory;
-using System.Linq.Expressions;
 
 namespace ShopManagement.Infrastructure.EFCore.Repository
 {
-    public class ProductCategoryRepository : IProductCategoryRepository
+    public class ProductCategoryRepository : RepositoryBase<long, ProductCategory>, IProductCategoryRepository
     {
         private readonly ShopContext _context;
 
-        public ProductCategoryRepository(ShopContext context)
+        public ProductCategoryRepository(ShopContext context):base(context)
         {
             _context = context;
         }
-        public void Create(ProductCategory entity)
-        {
-            _context.ProductCategories.Add(entity);
-           
-    }
-
-        public bool Exists(Expression<Func<ProductCategory, bool>> experssion)
-        {
-           return _context.ProductCategories.Any(experssion);
-        }
-
-        public ProductCategory Get(long id)
-        {
-            return _context.ProductCategories.Find(id);
-        }
-
-        public List<ProductCategory> GetAll()
-        {
-            return _context.ProductCategories.ToList();
-        }
+      
 
         public EditProductCategory GetDetails(long id)
         {
@@ -48,10 +29,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
             }).FirstOrDefault(x => x.Id == id);
             }
-        public void SaveChanges()
-        {
-            _context.SaveChanges();
-        }
+       
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
         {
