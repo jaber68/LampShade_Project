@@ -1,4 +1,5 @@
 
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Configuration;
 
@@ -14,9 +15,8 @@ var connectionString =  builder.Configuration.GetConnectionString("LampshadeDb")
 // options.UseSqlServer(builder.Configuration.GetConnectionString("LampshadeDb")));
 ShopManagementBoostrapper.Configure(services, connectionString);
 
-
-builder.Services.AddRazorPages();
-
+builder.Services
+    .AddRazorPages();
 var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -33,7 +33,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
 app.MapRazorPages();
-
+app.MapDefaultControllerRoute();
 app.Run();
