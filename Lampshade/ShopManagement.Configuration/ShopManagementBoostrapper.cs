@@ -13,13 +13,13 @@ namespace ShopManagement.Configuration
     {
       
 
-        public static void Configure(IServiceCollection services , string connectionString)
-        {
-         services.AddTransient<IProductCategoryApplication, ProductCategoryApplication>();
-            services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
-           services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
-        }
+       // public static void Configure(IServiceCollection services,string  connectionString)
+      //  {
+      // services.AddTransient<IProductCategoryApplication, ProductCategoryApplication>();
+        // services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
+           // services.AddDbContext<ShopManagement.Infrastructure.EFCore.ShopContext>(x => x.UseSqlServer(connectionString));
+      //  }
 
-      
-        }
+     
+    }
     }

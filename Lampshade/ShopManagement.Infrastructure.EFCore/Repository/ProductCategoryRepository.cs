@@ -1,7 +1,7 @@
 ﻿using _0_Framwork.Infrastructure;
 using ShopMagement.Domain.ProductCategoryAgg;
 using ShopManagement.Application.Contracts.ProductCategory;
-
+using _0_Framwork.Application;
 namespace ShopManagement.Infrastructure.EFCore.Repository
 {
     public class ProductCategoryRepository : RepositoryBase<long, ProductCategory>, IProductCategoryRepository
@@ -40,8 +40,8 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Name = x.Name,
                 CreationDate = x.CreationDate.ToString()
             });
-            if (!string.IsNullOrWhiteSpace(searchModel.Name)) ;
-            query = query.Where(x => x.Name.Contains(searchModel.Name));
+            if (!string.IsNullOrWhiteSpace(searchModel.Name))
+                query = query.Where(x => x.Name.Contains(searchModel.Name));
 
             return query.OrderByDescending(x => x.Id).ToList();
         }

@@ -18,11 +18,11 @@ namespace _0_Framwork.Infrastructure
             _context.Add(entity);
         }
 
-        public bool Exists(Expression<Func<T, bool>> experssion)
+        public bool Exists(Expression<Func<T, bool>> expression)
         {
-            return _context.Set<T>().Any(experssion);
+            return _context.Set<T>().Any(expression);
         }
-
+      
         public T Get(TKey id)
         {
             return _context.Find<T>(id);
@@ -35,7 +35,7 @@ namespace _0_Framwork.Infrastructure
 
         public void SaveChanges()
         {
-            throw new NotImplementedException();
+            _context.SaveChanges();
         }
     }
 }

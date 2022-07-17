@@ -1,6 +1,8 @@
-﻿using _0_Framwork.Application;
+﻿using _0_Framework.Application;
+using _0_Framwork.Application;
 using ShopMagement.Domain.ProductCategoryAgg;
 using ShopManagement.Application.Contracts.ProductCategory;
+using ShopManagement.Infrastructure.EFCore.Repository;
 
 namespace ShopManagement.Application
 {
@@ -19,10 +21,14 @@ namespace ShopManagement.Application
                 if (_productCategoryRepository.Exists(x => x.Name ==command.Name))
                 return operation.Failed("امکان ثبت رکورد تکراری وجود ندارد..لطفا مجددا تلاش نمایید");
 
-                var slug = command.Slug.Slugify();
-                var productCategory = new ProductCategory(command.Name, command.Description, command.Picture
+#pragma warning disable CS8604 // Possible null reference argument.
+            var slug = command.Slug.Slugify();
+#pragma warning restore CS8604 // Possible null reference argument.
+#pragma warning disable CS8604 // Possible null reference argument.
+            var productCategory = new ProductCategory(command.Name, command.Description, command.Picture
                     ,command.PictureTitle, command.MetaDescription, 
-                     command.Keywords, command.PictureAlt, slug);
+                   command.Keywords, command.PictureAlt, slug);
+#pragma warning restore CS8604 // Possible null reference argument.
 
             _productCategoryRepository.Create(productCategory);
                 _productCategoryRepository.SaveChanges();
@@ -39,10 +45,14 @@ namespace ShopManagement.Application
             if (_productCategoryRepository.Exists(x => x.Name == command.Name && x.Id != command.Id))
            return operation.Failed("امکان ثبت رکورد تکراری وجود ندارد لطفا دوباره تلاش نمایید");
 
+#pragma warning disable CS8604 // Possible null reference argument.
             var slug = command.Slug.Slugify();
+#pragma warning restore CS8604 // Possible null reference argument.
+#pragma warning disable CS8604 // Possible null reference argument.
             productCategory.Edit(command.Name, command.Description, command.Picture
                         , command.PictureTitle, command.MetaDescription,
                          command.Keywords, command.PictureAlt, slug);
+#pragma warning restore CS8604 // Possible null reference argument.
 
             _productCategoryRepository.SaveChanges();
             return operation.Succedded();
@@ -52,7 +62,8 @@ namespace ShopManagement.Application
         {
             return _productCategoryRepository.GetDetails(id);
         }
-         
+      
+
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
         {
             return _productCategoryRepository.Search(searchModel);

@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using ShopMagement.Domain.ProductCategoryAgg;
-using System;
 
 
 namespace ShopManagement.Infrastructure.EFCore.Mapping
@@ -11,7 +10,7 @@ namespace ShopManagement.Infrastructure.EFCore.Mapping
     {
         public void Configure(EntityTypeBuilder<ProductCategory> builder)
         {
-            builder.ToTable("Productategores");
+            builder.ToTable("ProductCategories");
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Name).HasMaxLength(255).IsRequired();
             builder.Property(x => x.Description).HasMaxLength(500);
