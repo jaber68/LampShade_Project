@@ -1,3 +1,11 @@
+E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.AssemblyReference.cache
+E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.GeneratedMSBuildEditorConfig.editorconfig
+E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfoInputs.cache
+E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfo.cs
+E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.CoreCompileInputs.cache
+E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cache
+E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cache
+E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cs
 E:\V.S_Projects\Code\Lampshade\ServiceHost\bin\Debug\net6.0\appsettings.Development.json
 E:\V.S_Projects\Code\Lampshade\ServiceHost\bin\Debug\net6.0\appsettings.json
 E:\V.S_Projects\Code\Lampshade\ServiceHost\bin\Debug\net6.0\ServiceHost.staticwebassets.runtime.json
@@ -52,14 +60,6 @@ E:\V.S_Projects\Code\Lampshade\ServiceHost\bin\Debug\net6.0\ShopMagement.Domain.
 E:\V.S_Projects\Code\Lampshade\ServiceHost\bin\Debug\net6.0\ShopManagement.Application.pdb
 E:\V.S_Projects\Code\Lampshade\ServiceHost\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 E:\V.S_Projects\Code\Lampshade\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
-E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.AssemblyReference.cache
-E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.GeneratedMSBuildEditorConfig.editorconfig
-E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfoInputs.cache
-E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfo.cs
-E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.CoreCompileInputs.cache
-E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cache
-E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cache
-E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cs
 E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\staticwebassets.build.json
 E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\staticwebassets.development.json
 E:\V.S_Projects\Code\Lampshade\ServiceHost\obj\Debug\net6.0\scopedcss\Areas\Administration\Pages\Shared\_AdminLayout.cshtml.rz.scp.css
