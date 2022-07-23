@@ -21,6 +21,10 @@ namespace ShopManagement.Application
             if (_productRepository.Exists(x => x.Name == command.Name))
                 return operation.Failed(ApplicationMessage.DouplicatedRecord);
 
+            command.Description = "";
+            command.Picture = "";
+            command.PictureAlt = "";
+            command.PictureTitle = "";
             var slug = command.Slug.Slugify();
             var product = new Product(command.Name, command.Code, command.UnitPrice, command.ShortDescription,
                 command.Description, command.Picture, command.PictureAlt, command.PictureTitle,
@@ -33,7 +37,7 @@ namespace ShopManagement.Application
 
         public OperationResult Edit(EditProduct command)
         {
-            var operation = new OperationResult();
+                       var operation = new OperationResult();
             var product = _productRepository.Get(command.Id);
             if (product == null)
                 return operation.Failed(ApplicationMessage.RecordNotFound);
@@ -41,6 +45,11 @@ namespace ShopManagement.Application
             if (_productRepository.Exists(x => x.Name == command.Name && x.Id == command.Id))
                 return operation.Failed(ApplicationMessage.DouplicatedRecord);
 
+
+            command.Description = "";
+            command.Picture = "";
+            command.PictureAlt = "";
+            command.PictureTitle = "";
             var slug = command.Slug.Slugify();
              product.Edit (command.Name, command.Code, command.UnitPrice, command.ShortDescription,
                 command.Description, command.Picture, command.PictureAlt, command.PictureTitle,
@@ -54,7 +63,7 @@ namespace ShopManagement.Application
             return _productRepository.GetDetails(id);
         }
 
-        public OperationResult InStock(long id)
+        public OperationResult IsStock(long id)
         {
             var operation = new OperationResult();
             var product = _productRepository.Get(id);

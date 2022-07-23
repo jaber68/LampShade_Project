@@ -1,5 +1,6 @@
 ﻿using _0_Framwork.Domain;
 using ShopMagement.Domain.ProductCategoryAgg;
+using ShopMagement.Domain.ProductPictureAgg;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +25,7 @@ namespace ShopMagement.Domain.ProductAgg
         public string Keywords { get; private set; }
         public string MetaDescription { get; private set; }
         public ProductCategory Category { get; private set; }
+        public  List<ProductPicture> ProductPictures { get; private set; }
 
         public Product(string name, string code, double unitPrice, string shortDescription, 
             string description, string picture, string pictureAlt, string pictureTitle, 

@@ -1,9 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using ShopMagement.Domain.ProductAgg;
 using ShopMagement.Domain.ProductCategoryAgg;
+using ShopMagement.Domain.ProductPictureAgg;
 using ShopManagement.Application;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductCategory;
+using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Configuration;
 using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
@@ -21,6 +23,8 @@ var builder = WebApplication.CreateBuilder(args);
        builder.Services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
        builder.Services.AddTransient<IProductApplication, ProductApplication>();
        builder.Services.AddTransient<IProductRepository, ProductRepository>();
+       builder.Services.AddTransient<IProductPictureApplication, ProductPictureApplication>();
+       builder.Services.AddTransient<IProductPictureRepository, ProductPictureRepository>();
 
 builder.Services.AddRazorPages();
 var app = builder.Build();

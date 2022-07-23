@@ -22,10 +22,11 @@ namespace ShopManagement.Application
                 if (_productCategoryRepository.Exists(x => x.Name ==command.Name))
                 return operation.Failed(ApplicationMessage.DouplicatedRecord);
 
-
+            command.Description = "";
+            command.Picture = "";
+            command.PictureAlt = "";
+            command.PictureTitle = "";
             var slug = command.Slug.Slugify();
-
-           command.Picture = "";
             var productCategory = new ProductCategory(command.Name, command.Description,command.Picture 
                     ,command.PictureTitle, command.MetaDescription, 
                    command.Keywords, command.PictureAlt, slug);
@@ -47,9 +48,11 @@ namespace ShopManagement.Application
            return operation.Failed(ApplicationMessage.DouplicatedRecord);
 
 
-            var slug = command.Slug.Slugify();
-
+            command.Description = "";
             command.Picture = "";
+            command.PictureAlt = "";
+            command.PictureTitle = "";
+            var slug = command.Slug.Slugify();
             productCategory.Edit(command.Name, command.Description, command.Picture
                         , command.PictureTitle, command.MetaDescription,
                          command.Keywords, command.PictureAlt, slug);
@@ -57,6 +60,11 @@ namespace ShopManagement.Application
 
             _productCategoryRepository.SaveChanges();
             return operation.Succedded();
+        }
+
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _productCategoryRepository.GetProductCategories();
         }
 
         public EditProductCategory GetDetails(long id)
