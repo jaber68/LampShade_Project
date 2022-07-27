@@ -1,4 +1,5 @@
 ﻿using _0_Framwork.Application;
+using System.Collections;
 
 namespace ShopManagement.Application.Contracts.Product
 {
@@ -10,6 +11,6 @@ namespace ShopManagement.Application.Contracts.Product
         OperationResult NotInStock(long Id);
         EditProduct GetDetails(long Id);
         List<ProductViewModel> Search(ProductSearchModel searchModel);
-
+       List<ProductViewModel> GetProducts();
     }
 }

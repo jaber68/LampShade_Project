@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using ShopMagement.Domain.ProductAgg;
 using ShopMagement.Domain.ProductCategoryAgg;
@@ -47,5 +48,6 @@ if (!app.Environment.IsDevelopment())
         app.UseAuthorization();
         app.MapRazorPages();
         app.MapDefaultControllerRoute();
-        app.Run();
+
+app.Run();
     

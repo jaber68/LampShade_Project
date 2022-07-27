@@ -102,9 +102,7 @@
                                                @if (item.IsInStock)
                                                {
                                             <a asp-page="./Index" asp-page-handler="NotInStock" asp-route-id="@item.Id"
-                                            class="btn btn-danger waves-effect waves-light m-b-4">
-                                           اتمام موجودی
-                                            </a>
+                                            class="btn btn-danger waves-effect waves-light m-b-4">اتمام موجودی</a>
                                                 }
                                                 else
                                                 {
@@ -126,8 +124,8 @@
 </div>
 
 @section Scripts {
-    <script src="~/adminTheme/assets/datatables/jquery.dataTables.min.js"></script>
-    <script src="~/adminTheme/assets/datatables/dataTables.bootstrap.js"></script>
+    <script src="~/AdminTheme/assets/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/AdminTheme/assets/datatables/dataTables.bootstrap.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function () {

@@ -1,9 +1,4 @@
 ﻿using _0_Framwork.Application;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Application.Contracts.ProductPicture
 {
@@ -14,6 +9,6 @@ namespace ShopManagement.Application.Contracts.ProductPicture
         OperationResult Remove(long id);
         OperationResult Restore(long id);
         EditProductPicture GetDetails(long id);
-        List<ProductPictureViewModel> Search(ProductPictureSearchModel seachModel);
+        List<ProductPictureViewModel> Search(ProductPictureSearchModel searchModel);
     }
 }
