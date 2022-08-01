@@ -11,9 +11,11 @@ namespace ShopMagement.Domain.SlideAgg
         public string Title { get; private set; }
         public string Text{ get; private set; }
         public string BtnText { get; private set; }
+        public string Link { get; private set; }
+
         public bool IsRemoved { get; private set; }
 
-        public Slide(string picture, string pictureAlt, string pictureTitle, string heading, string title, string text, string btnText)
+        public Slide(string picture, string pictureAlt, string pictureTitle, string heading, string title, string text, string link, string btnText)
         {
             Picture = picture;
             PictureAlt = pictureAlt;
@@ -21,10 +23,11 @@ namespace ShopMagement.Domain.SlideAgg
             Heading = heading;
             Title = title;
             Text = text;
+            Link = link;
             BtnText = btnText;
             IsRemoved = false;
         }
-        public void Edit(string picture, string pictureAlt, string pictureTitle, string heading, string title, string text, string btnText)
+        public void Edit(string picture, string pictureAlt, string pictureTitle, string heading, string title, string text, string link, string btnText)
         {
             Picture = picture;
             PictureAlt = pictureAlt;
@@ -32,6 +35,7 @@ namespace ShopMagement.Domain.SlideAgg
             Heading = heading;
             Title = title;
             Text = text;
+            Link = link;
             BtnText = btnText;
             IsRemoved = false;
         }

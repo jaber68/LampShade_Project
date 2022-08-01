@@ -1,12 +1,16 @@
+using _01_LampshadeQuery.Contracts.Slide;
+using _01_LampShadeQuery.Query;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using ShopMagement.Domain.ProductAgg;
 using ShopMagement.Domain.ProductCategoryAgg;
 using ShopMagement.Domain.ProductPictureAgg;
+using ShopMagement.Domain.SlideAgg;
 using ShopManagement.Application;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Application.Contracts.ProductPicture;
+using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Configuration;
 using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
@@ -26,6 +30,9 @@ var builder = WebApplication.CreateBuilder(args);
        builder.Services.AddTransient<IProductRepository, ProductRepository>();
        builder.Services.AddTransient<IProductPictureApplication, ProductPictureApplication>();
        builder.Services.AddTransient<IProductPictureRepository, ProductPictureRepository>();
+       builder.Services.AddTransient<ISlideApplication, SlideApplication>();
+       builder.Services.AddTransient<ISlideRepository, SlideRepository>();
+       builder.Services.AddTransient<ISlideQuery, SlideQuery>();
 
 builder.Services.AddRazorPages();
 var app = builder.Build();

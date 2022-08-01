@@ -161,6 +161,8 @@
     <Content Remove="wwwroot\AdminTheme\assets\timepicker\bootstrap-datepicker.js" />
     <Content Remove="wwwroot\AdminTheme\assets\timepicker\bootstrap-timepicker.min.js" />
     <Content Remove="wwwroot\AdminTheme\assets\toggles\toggles.min.js" />
+    <Content Remove="wwwroot\Theme\assets\fonts\IranianSans.svg" />
+    <Content Remove="wwwroot\Theme\assets\fonts\IranianSans.woff2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -179,6 +181,9 @@
     <None Include="Areas\Administration\Pages\Shop\Products\Create.cshtml" />
     <None Include="Areas\Administration\Pages\Shop\Products\Edit.cshtml" />
     <None Include="Areas\Administration\Pages\Shop\Products\Index.cshtml" />
+    <None Include="Areas\Administration\Pages\Shop\Slides\Create.cshtml" />
+    <None Include="Areas\Administration\Pages\Shop\Slides\Edit.cshtml" />
+    <None Include="Areas\Administration\Pages\Shop\Slides\Index.cshtml" />
     <None Include="wwwroot\AdminTheme\assets\bootstrap-inputmask\bootstrap-inputmask.min.js" />
     <None Include="wwwroot\AdminTheme\assets\bootstrap-wysihtml5\bootstrap-wysihtml5.js" />
     <None Include="wwwroot\AdminTheme\assets\bootstrap-wysihtml5\wysihtml5-0.3.0.js" />
@@ -337,6 +342,14 @@
     <None Include="wwwroot\AdminTheme\fonts\IranianSans.svg" />
     <None Include="wwwroot\AdminTheme\fonts\IranianSans.woff2" />
     <None Include="wwwroot\AdminTheme\fonts\Material-Design-Iconic-Font.svg" />
+    <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.svg" />
+    <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.woff2" />
+    <None Include="wwwroot\Theme\assets\fonts\ionicons28b5.svg" />
+    <None Include="wwwroot\Theme\assets\fonts\IranianSans.svg" />
+    <None Include="wwwroot\Theme\assets\fonts\IranianSans.woff2" />
+    <None Include="wwwroot\Theme\assets\js\active.js" />
+    <None Include="wwwroot\Theme\assets\js\ajax-mail.js" />
+    <None Include="wwwroot\Theme\assets\js\vendors.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -353,6 +366,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\01_LampShadeQuery\01_LampshadeQuery.csproj" />
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
   </ItemGroup>
 
