@@ -1,4 +1,5 @@
 using _01_LampshadeQuery.Contracts.Slide;
+using _01_LampShadeQuery.Contracts.ProductCategory;
 using _01_LampShadeQuery.Query;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
@@ -33,6 +34,7 @@ var builder = WebApplication.CreateBuilder(args);
        builder.Services.AddTransient<ISlideApplication, SlideApplication>();
        builder.Services.AddTransient<ISlideRepository, SlideRepository>();
        builder.Services.AddTransient<ISlideQuery, SlideQuery>();
+       builder.Services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
 
 builder.Services.AddRazorPages();
 var app = builder.Build();

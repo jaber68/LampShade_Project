@@ -22,10 +22,7 @@ namespace ShopManagement.Application
                 if (_productCategoryRepository.Exists(x => x.Name ==command.Name))
                 return operation.Failed(ApplicationMessage.DouplicatedRecord);
 
-            command.Description = "";
-            command.Picture = "";
-            command.PictureAlt = "";
-            command.PictureTitle = "";
+           
             var slug = command.Slug.Slugify();
             var productCategory = new ProductCategory(command.Name, command.Description,command.Picture 
                     ,command.PictureTitle, command.MetaDescription, 
@@ -48,10 +45,6 @@ namespace ShopManagement.Application
            return operation.Failed(ApplicationMessage.DouplicatedRecord);
 
 
-            command.Description = "";
-            command.Picture = "";
-            command.PictureAlt = "";
-            command.PictureTitle = "";
             var slug = command.Slug.Slugify();
             productCategory.Edit(command.Name, command.Description, command.Picture
                         , command.PictureTitle, command.MetaDescription,

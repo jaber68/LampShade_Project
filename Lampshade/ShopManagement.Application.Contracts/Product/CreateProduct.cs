@@ -20,10 +20,10 @@ namespace ShopManagement.Application.Contracts.Product
         public string ShortDescription { get; set; }
 
         
-        public string? Description { get; set; }
-        public string? Picture { get; set; } 
-        public string? PictureAlt { get; set; } 
-        public string? PictureTitle { get; set; }
+        public string Description { get; set; }
+        public string Picture { get; set; } 
+        public string PictureAlt { get; set; } 
+        public string PictureTitle { get; set; }
 
         [Range(1, 100000 , ErrorMessage = ValidationMessage.IsRequired)]
         public long CategoryId { get; set; }
