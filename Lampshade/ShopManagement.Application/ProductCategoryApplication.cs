@@ -1,5 +1,4 @@
-﻿using _0_Framework.Application;
-using _0_Framwork.Application;
+﻿using _0_Framwork.Application;
 using ShopMagement.Domain.ProductCategoryAgg;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Infrastructure.EFCore.Repository;

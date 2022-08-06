@@ -7537,9 +7537,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\V.S_Projects\\Code\\Lampshade\\01_LampShadeQuery\\01_LampShadeQuery.csproj",
-      "projectName": "01_LampShadeQuery",
-      "projectPath": "E:\\V.S_Projects\\Code\\Lampshade\\01_LampShadeQuery\\01_LampShadeQuery.csproj",
+      "projectUniqueName": "E:\\V.S_Projects\\Code\\Lampshade\\01_LampShadeQuery\\01_LampshadeQuery.csproj",
+      "projectName": "01_LampshadeQuery",
+      "projectPath": "E:\\V.S_Projects\\Code\\Lampshade\\01_LampShadeQuery\\01_LampshadeQuery.csproj",
       "packagesPath": "C:\\Users\\DSI\\.nuget\\packages\\",
       "outputPath": "E:\\V.S_Projects\\Code\\Lampshade\\01_LampShadeQuery\\obj\\",
       "projectStyle": "PackageReference",

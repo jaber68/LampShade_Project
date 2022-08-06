@@ -1,4 +1,5 @@
-﻿using _0_Framwork.Infrastructure;
+﻿using _0_Framwork.Application;
+using _0_Framwork.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopMagement.Domain.ProductAgg;
 using ShopManagement.Application.Contracts.Product;
@@ -57,7 +58,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
              Picture = x.Picture,
              CategoryId = x.CategoryId,
              IsInStock = x.IsInStock,
-             CreationDate = x.CreationDate.ToString()
+             CreationDate = x.CreationDate.ToFarsi()
             });
 
             if (!string.IsNullOrWhiteSpace(searchModel.Name))

@@ -1,5 +1,4 @@
-﻿using _0_Framework.Application;
-using _0_Framwork.Application;
+﻿using _0_Framwork.Application;
 using ShopMagement.Domain.ProductAgg;
 using ShopManagement.Application.Contracts.Product;
 using System.Collections.Generic;
