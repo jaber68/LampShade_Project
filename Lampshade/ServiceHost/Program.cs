@@ -1,7 +1,6 @@
 using _01_LampshadeQuery.Contracts.Slide;
 using _01_LampShadeQuery.Contracts.ProductCategory;
 using _01_LampShadeQuery.Query;
-using DiscountManagement.Application;
 using DiscountManagement.Application.Contract.CustomerDiscount;
 using Microsoft.EntityFrameworkCore;
 using ShopMagement.Domain.ProductAgg;
@@ -18,6 +17,10 @@ using ShopManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore.Repository;
 using DiscountManagement.Domain.CustomerDiscountAgg;
+using DiscountManagement.Domain.ColleagueDiscountAgg;
+using DiscountManagement.Application.Contract.ColleagueDiscount;
+using ColleagueDiscountRepository = DiscountManagement.Infrastructure.EFCore.Repository.ColleagueDiscountRepository;
+using DiscountManagement.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,17 +35,24 @@ builder.Services.AddDbContext<DiscountContext>(options =>
 
 builder.Services.AddTransient<IProductCategoryApplication, ProductCategoryApplication>();
 builder.Services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
+
 builder.Services.AddTransient<IProductApplication, ProductApplication>();
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
+
 builder.Services.AddTransient<IProductPictureApplication, ProductPictureApplication>();
 builder.Services.AddTransient<IProductPictureRepository, ProductPictureRepository>();
+
 builder.Services.AddTransient<ISlideApplication, SlideApplication>();
 builder.Services.AddTransient<ISlideRepository, SlideRepository>();
+
 builder.Services.AddTransient<ISlideQuery, SlideQuery>();
 builder.Services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
 
 builder.Services.AddTransient<ICustomerDiscountApplication, CustomerDiscountApplication>();
 builder.Services.AddTransient<ICustomerDiscountRepository, CustomerDiscountRepository>();
+
+builder.Services.AddTransient<IColleagueDiscountApplication, ColleagueDiscountApplication>();
+builder.Services.AddTransient<IColleagueDiscountRepository, ColleagueDiscountRepository>();
 
 builder.Services.AddRazorPages();
 var app = builder.Build();
