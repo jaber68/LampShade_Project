@@ -207,6 +207,19 @@
         "runtime": {
           "bin/placeholder/0_Framwork.dll": {}
         }
+      },
+      "InventoryManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framwork": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Application.Contract.dll": {}
+        }
       }
     }
   },
@@ -538,11 +551,17 @@
       "type": "project",
       "path": "../0_Framwork/0_Framwork.csproj",
       "msbuildProject": "../0_Framwork/0_Framwork.csproj"
+    },
+    "InventoryManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagementApplication.Contract/InventoryManagement.Application.Contract.csproj",
+      "msbuildProject": "../InventoryManagementApplication.Contract/InventoryManagement.Application.Contract.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "0_Framwork >= 1.0.0"
+      "0_Framwork >= 1.0.0",
+      "InventoryManagement.Application.Contract >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -579,6 +598,9 @@
           "projectReferences": {
             "E:\\V.S_Projects\\Code\\Lampshade\\0_Framwork\\0_Framwork.csproj": {
               "projectPath": "E:\\V.S_Projects\\Code\\Lampshade\\0_Framwork\\0_Framwork.csproj"
+            },
+            "E:\\V.S_Projects\\Code\\Lampshade\\InventoryManagementApplication.Contract\\InventoryManagement.Application.Contract.csproj": {
+              "projectPath": "E:\\V.S_Projects\\Code\\Lampshade\\InventoryManagementApplication.Contract\\InventoryManagement.Application.Contract.csproj"
             }
           }
         }

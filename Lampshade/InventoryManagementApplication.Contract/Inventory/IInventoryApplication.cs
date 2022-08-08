@@ -1,6 +1,6 @@
 ﻿using _0_Framwork.Application;
 
-namespace InventoryManagementApplication.Contract.Inventory
+namespace InventoryManagement.Application.Contract.Inventory
 {
     public interface IInventoryApplication
     {

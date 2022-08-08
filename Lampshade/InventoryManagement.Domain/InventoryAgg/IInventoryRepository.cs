@@ -1,5 +1,5 @@
 ﻿using _0_Framwork.Domain;
-using InventoryManagementApplication.Contract.Inventory;
+using InventoryManagement.Application.Contract.Inventory;
 using System.Linq.Expressions;
 
 namespace InventoryManagement.Domain.InventoryAgg

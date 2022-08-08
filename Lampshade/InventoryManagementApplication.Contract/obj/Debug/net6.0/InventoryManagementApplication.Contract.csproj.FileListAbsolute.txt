@@ -1,0 +1,15 @@
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\bin\Debug\net6.0\InventoryManagementApplication.Contract.deps.json
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\bin\Debug\net6.0\InventoryManagementApplication.Contract.dll
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\bin\Debug\net6.0\InventoryManagementApplication.Contract.pdb
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\bin\Debug\net6.0\0_Framwork.dll
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\bin\Debug\net6.0\0_Framwork.pdb
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\obj\Debug\net6.0\InventoryManagementApplication.Contract.csproj.AssemblyReference.cache
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\obj\Debug\net6.0\InventoryManagementApplication.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\obj\Debug\net6.0\InventoryManagementApplication.Contract.AssemblyInfoInputs.cache
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\obj\Debug\net6.0\InventoryManagementApplication.Contract.AssemblyInfo.cs
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\obj\Debug\net6.0\InventoryManagementApplication.Contract.csproj.CoreCompileInputs.cache
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\obj\Debug\net6.0\InventoryManagementApplication.Contract.csproj.CopyComplete
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\obj\Debug\net6.0\InventoryManagementApplication.Contract.dll
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\obj\Debug\net6.0\refint\InventoryManagementApplication.Contract.dll
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\obj\Debug\net6.0\InventoryManagementApplication.Contract.pdb
+E:\V.S_Projects\Code\Lampshade\InventoryManagementApplication.Contract\obj\Debug\net6.0\ref\InventoryManagementApplication.Contract.dll
