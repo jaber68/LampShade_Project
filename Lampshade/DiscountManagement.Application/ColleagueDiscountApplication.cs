@@ -1,5 +1,4 @@
-﻿
-using _0_Framwork.Application;
+﻿using _0_Framwork.Application;
 using DiscountManagement.Application.Contract.ColleagueDiscount;
 using DiscountManagement.Domain.ColleagueDiscountAgg;
 
@@ -7,19 +6,17 @@ namespace DiscountManagement.Application
 {
     public class ColleagueDiscountApplication : IColleagueDiscountApplication
     {
-
         private readonly IColleagueDiscountRepository _colleagueDiscountRepository;
 
-        public ColleagueDiscountApplication(IColleagueDiscountRepository coleagueDiscountRepository)
+        public ColleagueDiscountApplication(IColleagueDiscountRepository colleagueDiscountRepository)
         {
-            _colleagueDiscountRepository = coleagueDiscountRepository;
+            _colleagueDiscountRepository = colleagueDiscountRepository;
         }
 
         public OperationResult Define(DefineColleagueDiscount command)
         {
             var operation = new OperationResult();
-            if (_colleagueDiscountRepository.Exists(x => 
-            x.ProductId == command.ProductId && x.DiscountRate == command.DiscountRate))
+            if (_colleagueDiscountRepository.Exists(x => x.ProductId == command.ProductId && x.DiscountRate == command.DiscountRate))
                 return operation.Failed(ApplicationMessage.DouplicatedRecord);
 
             var colleagueDiscount = new ColleagueDiscount(command.ProductId, command.DiscountRate);
@@ -27,22 +24,20 @@ namespace DiscountManagement.Application
             _colleagueDiscountRepository.Create(colleagueDiscount);
             _colleagueDiscountRepository.SaveChanges();
             return operation.Succedded();
-
         }
 
         public OperationResult Edit(EditColleagueDiscount command)
         {
             var operation = new OperationResult();
             var colleagueDiscount = _colleagueDiscountRepository.Get(command.Id);
-            if (colleagueDiscount != null)
+            if (colleagueDiscount == null)
                 return operation.Failed(ApplicationMessage.RecordNotFound);
 
-            if(_colleagueDiscountRepository.Exists(x => 
-            x.ProductId == command.ProductId && x.DiscountRate == command.DiscountRate && x.Id != command.Id))
+            if (_colleagueDiscountRepository.Exists(x => x.ProductId == command.ProductId && x.DiscountRate == command.DiscountRate && x.Id != command.Id))
                 return operation.Failed(ApplicationMessage.DouplicatedRecord);
 
-            colleagueDiscount?.Edit(command.ProductId, command.DiscountRate);
-           
+            colleagueDiscount.Edit(command.ProductId, command.DiscountRate);
+
             _colleagueDiscountRepository.SaveChanges();
             return operation.Succedded();
         }
@@ -56,10 +51,10 @@ namespace DiscountManagement.Application
         {
             var operation = new OperationResult();
             var colleagueDiscount = _colleagueDiscountRepository.Get(id);
-            if (colleagueDiscount != null)
+            if (colleagueDiscount == null)
                 return operation.Failed(ApplicationMessage.RecordNotFound);
 
-            colleagueDiscount?.Removed();
+            colleagueDiscount.Remove();
 
             _colleagueDiscountRepository.SaveChanges();
             return operation.Succedded();
@@ -69,10 +64,10 @@ namespace DiscountManagement.Application
         {
             var operation = new OperationResult();
             var colleagueDiscount = _colleagueDiscountRepository.Get(id);
-            if (colleagueDiscount != null)
+            if (colleagueDiscount == null)
                 return operation.Failed(ApplicationMessage.RecordNotFound);
 
-            colleagueDiscount?.Restore();
+            colleagueDiscount.Restore();
 
             _colleagueDiscountRepository.SaveChanges();
             return operation.Succedded();

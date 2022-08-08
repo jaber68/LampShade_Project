@@ -21,7 +21,7 @@ namespace DiscountManagement.Domain.ColleagueDiscountAgg
             DiscountRate = discountRate;
 
         }
-        public void Removed()
+        public void Remove()
         {
             IsRemoved = true;
         }

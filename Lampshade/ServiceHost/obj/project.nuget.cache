@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bdmpqN04h5B+TLaq9X/QajJG42IVen9mpFNvBJOZwDChGonUf+QhJ6XAJfWsWvYb6lc+HbOs5lkF5sNC3/8Yfg==",
+  "dgSpecHash": "iBIzLpY+QaKtON7pHvQo7tjOl6U9t/8lvxTKg9s+EVlFbL+l9wcLZ3QmsfZDY80yZI4lKrYE7ZNCp24RZhxpYQ==",
   "success": true,
   "projectFilePath": "E:\\V.S_Projects\\Code\\Lampshade\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
@@ -157,7 +157,10 @@
     "C:\\Users\\DSI\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\DSI\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
     "C:\\Users\\DSI\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\DSI\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\DSI\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\DSI\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\DSI\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
+    "C:\\Users\\DSI\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512"
   ],
   "logs": []
 }

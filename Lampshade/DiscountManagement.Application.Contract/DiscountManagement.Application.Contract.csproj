@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="xunit.extensibility.execution" Version="2.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\0_Framwork\0_Framwork.csproj" />
     <ProjectReference Include="..\ShopManagement.Application.Contracts\ShopManagement.Application.Contracts.csproj" />
   </ItemGroup>
