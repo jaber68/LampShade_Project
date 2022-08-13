@@ -1,5 +1,4 @@
 ﻿using _0_Framwork.Application;
-using Microsoft.AspNetCore.Mvc;
 using ShopManagement.Application.Contracts.ProductCategory;
 using System.ComponentModel.DataAnnotations;
 
@@ -13,8 +12,6 @@ namespace ShopManagement.Application.Contracts.Product
         [Required(ErrorMessage = ValidationMessage.IsRequired)]
         public string Code { get; set; }
 
-        [Range(1, 10000000000000, ErrorMessage = ValidationMessage.IsRequired)]
-        public double UnitPrice { get; set; }
 
         [Required(ErrorMessage = ValidationMessage.IsRequired)]
         public string ShortDescription { get; set; }
