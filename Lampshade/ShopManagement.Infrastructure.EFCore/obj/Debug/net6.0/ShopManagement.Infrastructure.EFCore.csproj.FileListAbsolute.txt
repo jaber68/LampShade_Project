@@ -1,3 +1,8 @@
+E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
+E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
+E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.AssemblyInfo.cs
+E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.deps.json
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.runtimeconfig.json
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.dll
@@ -8,11 +13,6 @@ E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\ne
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopMagement.Domain.pdb
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\0_Framwork.pdb
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
-E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
-E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
-E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
-E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.AssemblyInfo.cs
-E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.csproj.CopyComplete
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.dll
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\refint\ShopManagement.Infrastructure.EFCore.dll

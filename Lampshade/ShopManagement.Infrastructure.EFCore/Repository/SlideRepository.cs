@@ -1,4 +1,5 @@
-﻿using _0_Framwork.Application;
+﻿using _0_Framework.Application;
+using _0_Framwork.Application;
 using _0_Framwork.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopMagement.Domain.SlideAgg;

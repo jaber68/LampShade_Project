@@ -1,3 +1,8 @@
+E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.csproj.AssemblyReference.cache
+E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.AssemblyInfoInputs.cache
+E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.AssemblyInfo.cs
+E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.csproj.CoreCompileInputs.cache
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\bin\Debug\net6.0\ShopManagement.Application.deps.json
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\bin\Debug\net6.0\ShopManagement.Application.dll
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\bin\Debug\net6.0\ShopManagement.Application.pdb
@@ -9,11 +14,6 @@ E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\bin\Debug\net6.0\ShopM
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\bin\Debug\net6.0\0_Framwork.pdb
-E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.csproj.AssemblyReference.cache
-E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
-E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.AssemblyInfoInputs.cache
-E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.AssemblyInfo.cs
-E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.csproj.CoreCompileInputs.cache
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.csproj.CopyComplete
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.dll
 E:\V.S_Projects\Code\Lampshade\ShopManagement.Application\obj\Debug\net6.0\refint\ShopManagement.Application.dll

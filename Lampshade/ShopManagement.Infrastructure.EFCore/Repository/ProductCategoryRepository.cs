@@ -1,7 +1,8 @@
 ﻿using _0_Framwork.Infrastructure;
 using ShopMagement.Domain.ProductCategoryAgg;
 using ShopManagement.Application.Contracts.ProductCategory;
-using _0_Framwork.Application;
+using _0_Framework.Application;
+
 namespace ShopManagement.Infrastructure.EFCore.Repository
 {
     public class ProductCategoryRepository : RepositoryBase<long, ProductCategory>, IProductCategoryRepository

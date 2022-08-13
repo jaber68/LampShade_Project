@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ZTd4qwsDdkCy1nrehU7dfdmhFxxwUXLfvizn8g3LfNhEpLO9/hPrJU1ngwCzsaeLuWs4n03PLNIOECWqEg2Wig==",
+  "dgSpecHash": "oSvlbRDbolVhLgLD0aacJlCfLDMTg5rWfMJaY8jNL0cMKroN1P1uA0V4wMM9hVgfLwzk7tLr+MNzEk+mcSg+1Q==",
   "success": true,
   "projectFilePath": "E:\\V.S_Projects\\Code\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DSI\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\DSI\\.nuget\\packages\\md.persiandatetime.core\\2.3.5\\md.persiandatetime.core.2.3.5.nupkg.sha512",
     "C:\\Users\\DSI\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\DSI\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\DSI\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

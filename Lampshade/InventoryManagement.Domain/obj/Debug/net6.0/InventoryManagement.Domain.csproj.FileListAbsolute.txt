@@ -2,7 +2,11 @@ E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\bin\Debug\net6.0\Inven
 E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Domain.dll
 E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Domain.pdb
 E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\bin\Debug\net6.0\0_Framwork.dll
+E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Application.Contract.dll
+E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\bin\Debug\net6.0\0_Framwork.pdb
+E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Application.Contract.pdb
+E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.csproj.AssemblyReference.cache
 E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
 E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.AssemblyInfoInputs.cache
@@ -13,5 +17,3 @@ E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\obj\Debug\net6.0\Inven
 E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\obj\Debug\net6.0\refint\InventoryManagement.Domain.dll
 E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.pdb
 E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\obj\Debug\net6.0\ref\InventoryManagement.Domain.dll
-E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Application.Contract.dll
-E:\V.S_Projects\Code\Lampshade\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Application.Contract.pdb

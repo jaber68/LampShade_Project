@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MD.PersianDateTime.Core": {
+              "target": "Package",
+              "version": "[2.3.5, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.6, )"
@@ -253,6 +257,9 @@
             "projectReferences": {
               "E:\\V.S_Projects\\Code\\Lampshade\\0_Framwork\\0_Framwork.csproj": {
                 "projectPath": "E:\\V.S_Projects\\Code\\Lampshade\\0_Framwork\\0_Framwork.csproj"
+              },
+              "E:\\V.S_Projects\\Code\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\V.S_Projects\\Code\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }

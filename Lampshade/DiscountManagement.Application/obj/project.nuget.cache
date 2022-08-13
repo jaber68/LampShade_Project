@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EDuVNd9o4oEctXRkRkJI9cEc9TrsYYGmDjJXcFmf1rSB2d9HnSn4QdQy/9YCozfjhnzecyjjMv/tjeaT+/iN3Q==",
+  "dgSpecHash": "k01pzjuVj/5nYsNUAJB3wwJ07L+0y7bwlB9z1q7WtrBsJVVMZnCsFT09epL75KHg2KkqofsQLEcsQW/cQd3AaA==",
   "success": true,
   "projectFilePath": "E:\\V.S_Projects\\Code\\Lampshade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DSI\\.nuget\\packages\\md.persiandatetime.core\\2.3.5\\md.persiandatetime.core.2.3.5.nupkg.sha512",
     "C:\\Users\\DSI\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\DSI\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\DSI\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
