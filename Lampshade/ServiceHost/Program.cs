@@ -1,5 +1,4 @@
 using _01_LampshadeQuery.Contracts.Slide;
-using _01_LampShadeQuery.Contracts.ProductCategory;
 using _01_LampShadeQuery.Query;
 using DiscountManagement.Application.Contract.CustomerDiscount;
 using Microsoft.EntityFrameworkCore;
@@ -26,6 +25,8 @@ using InventoryManagement.Domain.InventoryAgg;
 using InventoryManagement.Infrastructure.EFCore.Repository;
 using InventoryManagement.Application.Contract.Inventory;
 using InventoryManagement.Application;
+using _01_LampshadeQuery.Contracts.Product;
+using _01_LampshadeQuery.Contracts.ProductCategory;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -55,6 +56,7 @@ builder.Services.AddTransient<ISlideRepository, SlideRepository>();
 
 builder.Services.AddTransient<ISlideQuery, SlideQuery>();
 builder.Services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
+builder.Services.AddTransient<IProductQuery, ProductQuery>();
 
 builder.Services.AddTransient<ICustomerDiscountApplication, CustomerDiscountApplication>();
 builder.Services.AddTransient<ICustomerDiscountRepository, CustomerDiscountRepository>();

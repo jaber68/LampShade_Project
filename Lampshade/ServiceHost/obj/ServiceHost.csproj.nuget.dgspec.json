@@ -32,6 +32,12 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "E:\\V.S_Projects\\Code\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\V.S_Projects\\Code\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+              },
+              "E:\\V.S_Projects\\Code\\Lampshade\\InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\V.S_Projects\\Code\\Lampshade\\InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.EFCore.csproj"
+              },
               "E:\\V.S_Projects\\Code\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "E:\\V.S_Projects\\Code\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }

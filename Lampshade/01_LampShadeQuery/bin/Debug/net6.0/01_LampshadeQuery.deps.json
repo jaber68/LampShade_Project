@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "01_LampshadeQuery/1.0.0": {
         "dependencies": {
+          "DiscountManagement.Infrastructure.EFCore": "1.0.0",
+          "InventoryManagement.Infrastructure.EFCore": "1.0.0",
           "ShopManagement.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
@@ -1613,6 +1615,38 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "xunit.abstractions/2.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "xunit.extensibility.core/2.4.2": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "xunit.abstractions": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.core.dll": {
+            "assemblyVersion": "2.4.2.0",
+            "fileVersion": "2.4.2.0"
+          }
+        }
+      },
+      "xunit.extensibility.execution/2.4.2": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "xunit.extensibility.core": "2.4.2"
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
+            "assemblyVersion": "2.4.2.0",
+            "fileVersion": "2.4.2.0"
+          }
+        }
+      },
       "0_Framwork/1.0.0": {
         "dependencies": {
           "MD.PersianDateTime.Core": "2.3.5",
@@ -1620,6 +1654,68 @@
         },
         "runtime": {
           "0_Framwork.dll": {}
+        }
+      },
+      "DiscountManagement.Application.Contract/1.0.0": {
+        "dependencies": {
+          "0_Framwork": "1.0.0",
+          "ShopManagement.Application.Contracts": "1.0.0",
+          "xunit.extensibility.execution": "2.4.2"
+        },
+        "runtime": {
+          "DiscountManagement.Application.Contract.dll": {}
+        }
+      },
+      "DiscountManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framwork": "1.0.0",
+          "DiscountManagement.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "DiscountManagement.Domain.dll": {}
+        }
+      },
+      "DiscountManagement.Infrastructure.EFCore/1.0.0": {
+        "dependencies": {
+          "0_Framwork": "1.0.0",
+          "DiscountManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.7",
+          "ShopManagement.Infrastructure.EFCore": "1.0.0"
+        },
+        "runtime": {
+          "DiscountManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "InventoryManagement.Application.Contract/1.0.0": {
+        "dependencies": {
+          "0_Framwork": "1.0.0",
+          "ShopManagement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "InventoryManagement.Application.Contract.dll": {}
+        }
+      },
+      "InventoryManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framwork": "1.0.0",
+          "InventoryManagement.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "InventoryManagement.Domain.dll": {}
+        }
+      },
+      "InventoryManagement.Infrastructure.EFCore/1.0.0": {
+        "dependencies": {
+          "0_Framwork": "1.0.0",
+          "InventoryManagement.Application.Contract": "1.0.0",
+          "InventoryManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7",
+          "ShopMagement.Domain": "1.0.0",
+          "ShopManagement.Infrastructure.EFCore": "1.0.0"
+        },
+        "runtime": {
+          "InventoryManagement.Infrastructure.EFCore.dll": {}
         }
       },
       "ShopMagement.Domain/1.0.0": {
@@ -2729,7 +2825,58 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
+    "xunit.abstractions/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
+      "path": "xunit.abstractions/2.0.3",
+      "hashPath": "xunit.abstractions.2.0.3.nupkg.sha512"
+    },
+    "xunit.extensibility.core/2.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W1BoXTIN1C6kpVSMw25huSet25ky6IAQUNovu3zGOGN/jWnbgSoTyCrlIhmXSg0tH5nEf8q7h3OjNHOjyu5PfA==",
+      "path": "xunit.extensibility.core/2.4.2",
+      "hashPath": "xunit.extensibility.core.2.4.2.nupkg.sha512"
+    },
+    "xunit.extensibility.execution/2.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CZmgcKkwpyo8FlupZdWpJCryrAOWLh1FBPG6gmVZuPQkGQsim/oL4PcP4nfrC2hHgXUFtluvaJ0Sp9PQKUMNpg==",
+      "path": "xunit.extensibility.execution/2.4.2",
+      "hashPath": "xunit.extensibility.execution.2.4.2.nupkg.sha512"
+    },
     "0_Framwork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryManagement.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

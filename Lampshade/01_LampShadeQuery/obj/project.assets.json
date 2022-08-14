@@ -2311,6 +2311,41 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "xunit.abstractions/2.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {}
+        }
+      },
+      "xunit.extensibility.core/2.4.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "xunit.abstractions": "2.0.3"
+        },
+        "compile": {
+          "lib/netstandard1.1/xunit.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.core.dll": {}
+        }
+      },
+      "xunit.extensibility.execution/2.4.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "xunit.extensibility.core": "[2.4.2]"
+        },
+        "compile": {
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
+        }
+      },
       "0_Framwork/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2323,6 +2358,98 @@
         },
         "runtime": {
           "bin/placeholder/0_Framwork.dll": {}
+        }
+      },
+      "DiscountManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framwork": "1.0.0",
+          "ShopManagement.Application.Contracts": "1.0.0",
+          "xunit.extensibility.execution": "2.4.2"
+        },
+        "compile": {
+          "bin/placeholder/DiscountManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountManagement.Application.Contract.dll": {}
+        }
+      },
+      "DiscountManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framwork": "1.0.0",
+          "DiscountManagement.Application.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DiscountManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountManagement.Domain.dll": {}
+        }
+      },
+      "DiscountManagement.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framwork": "1.0.0",
+          "DiscountManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.7",
+          "ShopManagement.Infrastructure.EFCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DiscountManagement.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "InventoryManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framwork": "1.0.0",
+          "ShopManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Application.Contract.dll": {}
+        }
+      },
+      "InventoryManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framwork": "1.0.0",
+          "InventoryManagement.Application.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Domain.dll": {}
+        }
+      },
+      "InventoryManagement.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framwork": "1.0.0",
+          "InventoryManagement.Application.Contract": "1.0.0",
+          "InventoryManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7",
+          "ShopMagement.Domain": "1.0.0",
+          "ShopManagement.Infrastructure.EFCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Infrastructure.EFCore.dll": {}
         }
       },
       "ShopMagement.Domain/1.0.0": {
@@ -7527,10 +7654,92 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "xunit.abstractions/2.0.3": {
+      "sha512": "pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
+      "type": "package",
+      "path": "xunit.abstractions/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/xunit.abstractions.dll",
+        "lib/net35/xunit.abstractions.xml",
+        "lib/netstandard1.0/xunit.abstractions.dll",
+        "lib/netstandard1.0/xunit.abstractions.xml",
+        "lib/netstandard2.0/xunit.abstractions.dll",
+        "lib/netstandard2.0/xunit.abstractions.xml",
+        "xunit.abstractions.2.0.3.nupkg.sha512",
+        "xunit.abstractions.nuspec"
+      ]
+    },
+    "xunit.extensibility.core/2.4.2": {
+      "sha512": "W1BoXTIN1C6kpVSMw25huSet25ky6IAQUNovu3zGOGN/jWnbgSoTyCrlIhmXSg0tH5nEf8q7h3OjNHOjyu5PfA==",
+      "type": "package",
+      "path": "xunit.extensibility.core/2.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/logo-128-transparent.png",
+        "lib/net452/xunit.core.dll",
+        "lib/net452/xunit.core.dll.tdnet",
+        "lib/net452/xunit.core.xml",
+        "lib/net452/xunit.runner.tdnet.dll",
+        "lib/net452/xunit.runner.utility.net452.dll",
+        "lib/netstandard1.1/xunit.core.dll",
+        "lib/netstandard1.1/xunit.core.xml",
+        "xunit.extensibility.core.2.4.2.nupkg.sha512",
+        "xunit.extensibility.core.nuspec"
+      ]
+    },
+    "xunit.extensibility.execution/2.4.2": {
+      "sha512": "CZmgcKkwpyo8FlupZdWpJCryrAOWLh1FBPG6gmVZuPQkGQsim/oL4PcP4nfrC2hHgXUFtluvaJ0Sp9PQKUMNpg==",
+      "type": "package",
+      "path": "xunit.extensibility.execution/2.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/logo-128-transparent.png",
+        "lib/net452/xunit.execution.desktop.dll",
+        "lib/net452/xunit.execution.desktop.xml",
+        "lib/netstandard1.1/xunit.execution.dotnet.dll",
+        "lib/netstandard1.1/xunit.execution.dotnet.xml",
+        "xunit.extensibility.execution.2.4.2.nupkg.sha512",
+        "xunit.extensibility.execution.nuspec"
+      ]
+    },
     "0_Framwork/1.0.0": {
       "type": "project",
       "path": "../0_Framwork/0_Framwork.csproj",
       "msbuildProject": "../0_Framwork/0_Framwork.csproj"
+    },
+    "DiscountManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../DiscountManagement.Application.Contract/DiscountManagement.Application.Contract.csproj",
+      "msbuildProject": "../DiscountManagement.Application.Contract/DiscountManagement.Application.Contract.csproj"
+    },
+    "DiscountManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DiscountManagement.Domain/DiscountManagement.Domain.csproj",
+      "msbuildProject": "../DiscountManagement.Domain/DiscountManagement.Domain.csproj"
+    },
+    "DiscountManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../DiscountManagement.Infrastructure.EFCore/DiscountManagement.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../DiscountManagement.Infrastructure.EFCore/DiscountManagement.Infrastructure.EFCore.csproj"
+    },
+    "InventoryManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagementApplication.Contract/InventoryManagement.Application.Contract.csproj",
+      "msbuildProject": "../InventoryManagementApplication.Contract/InventoryManagement.Application.Contract.csproj"
+    },
+    "InventoryManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagement.Domain/InventoryManagement.Domain.csproj",
+      "msbuildProject": "../InventoryManagement.Domain/InventoryManagement.Domain.csproj"
+    },
+    "InventoryManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagement.Infrastructure/InventoryManagement.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../InventoryManagement.Infrastructure/InventoryManagement.Infrastructure.EFCore.csproj"
     },
     "ShopMagement.Domain/1.0.0": {
       "type": "project",
@@ -7550,6 +7759,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DiscountManagement.Infrastructure.EFCore >= 1.0.0",
+      "InventoryManagement.Infrastructure.EFCore >= 1.0.0",
       "ShopManagement.Infrastructure.EFCore >= 1.0.0"
     ]
   },
@@ -7585,6 +7796,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "E:\\V.S_Projects\\Code\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "E:\\V.S_Projects\\Code\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+            },
+            "E:\\V.S_Projects\\Code\\Lampshade\\InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "E:\\V.S_Projects\\Code\\Lampshade\\InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.EFCore.csproj"
+            },
             "E:\\V.S_Projects\\Code\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
               "projectPath": "E:\\V.S_Projects\\Code\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
             }

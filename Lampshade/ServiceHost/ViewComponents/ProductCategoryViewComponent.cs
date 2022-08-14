@@ -1,4 +1,4 @@
-﻿using _01_LampShadeQuery.Contracts.ProductCategory;
+﻿using _01_LampshadeQuery.Contracts.ProductCategory;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ServiceHost.ViewComponents
@@ -16,7 +16,6 @@ namespace ServiceHost.ViewComponents
         {
             var productCategories = _productCategoryQuery.GetProductCategories();
             return View(productCategories);
-
         }
     }
 }
